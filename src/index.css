@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom light Miniso style */
+body {
+  @apply font-cute text-gray-700 bg-pink-50 antialiased m-0 min-h-screen flex flex-col items-center justify-center;
+  color-scheme: light;
+}
